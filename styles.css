@@ -30,7 +30,7 @@ section.header_right{
     text-align: right;
 }
 div{
-    width: 10%;
+    width: 65px;
     text-align: center;
     display: inline-block;
 }
@@ -39,3 +39,73 @@ a {
     font-size: .9em;
     color: grey;
 }
+a.button_link{
+    background-color: blue;
+    padding: 3px 4px 3px 4px;
+    display: inline-block;
+    width: 90%;
+    color: white;
+    font-weight: bold; 
+}
+div.image{
+    width: 100%;
+    text-align: center;
+}
+img.icon{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 90px;
+}
+input{
+    margin-top: 30px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 45px;
+}
+section.go_button{
+    width: 35%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 32%;
+    margin-right: auto;
+}
+.google_search, .im_feeling_lucky{
+    margin-top: 10px;
+    height: 30px;
+    width: auto;
+    background-color: lightgray;
+    opacity: .7;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    background-color: rgb(236, 233, 233);
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    border-top: .2px solid rgb(223, 218, 218) ;
+}
+
+.advertising, .business, .privacy, .terms, .settings{
+    font-size: .9em;
+    margin-left: 2%;
+    width: auto;
+    color: rgb(110, 109, 109);
+}
+.privacy{
+    position: absolute;
+    right: 13%;
+}
+.terms{
+    position: absolute;
+    right: 8%;
+}
+.settings{
+    position: absolute;
+    right: 2%;
+}
+
+
+
